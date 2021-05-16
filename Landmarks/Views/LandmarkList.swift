@@ -10,7 +10,7 @@ import SwiftUI
 struct LandmarkList: View {
     var body: some View {
         NavigationView {
-            List{
+            List {
                 NavigationLink(
                     destination: ContentView(),
                     label: {

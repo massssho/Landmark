@@ -9,7 +9,7 @@ import SwiftUI
 
 struct LandmarkRow: View {
     var body: some View {
-        HStack{
+        HStack {
             Image("turtlerock")
                 .resizable()
                 .aspectRatio(contentMode: .fill)

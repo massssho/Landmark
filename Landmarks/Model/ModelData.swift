@@ -13,15 +13,15 @@ func load() -> [Landmark] {
     
     
     let fileUrl = Bundle.main.url(forResource: "landmarkData", withExtension: "json")!
-        do {
-            let data = try Data(contentsOf: fileUrl)
+    do {
+        let data = try Data(contentsOf: fileUrl)
 
-            let jsonDeceder = JSONDecoder()
-            let landmarks = try jsonDeceder.decode([Landmark].self, from: data)
+        let jsonDeceder = JSONDecoder()
+        let landmarks = try jsonDeceder.decode([Landmark].self, from: data)
 
-            return landmarks
-        } catch {
-            print(error)
-            return[]
-        }
+        return landmarks
+    } catch {
+        print(error)
+        return[]
+    }
 }
