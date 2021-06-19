@@ -15,7 +15,13 @@ struct Landmark: Decodable {
     let state: String
     let isFeatured: Bool
     let isFavorite: Bool
+    let coordinates: Coordinate
     let park: String
     let description: String
     let imageName: String
+}
+
+struct Coordinate: Decodable {
+    let longitude: Double
+    let latitude: Double
 }
