@@ -36,8 +36,8 @@ struct LandmarkDetail: View {
                     .font(.title2)
                 Text(landmark.description)
             }
-        .padding()
-        Spacer()
+            .padding()
+            Spacer()
         }
     }
 }
