@@ -41,6 +41,6 @@ struct LandmarkRow_Previews: PreviewProvider {
             )
         }
         .previewLayout(.fixed(width: 375, height: 78))
-        .preferredColorScheme(/*@START_MENU_TOKEN@*/.dark/*@END_MENU_TOKEN@*/)
+        .preferredColorScheme(.dark)
     }
 }
