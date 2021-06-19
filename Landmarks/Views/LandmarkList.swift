@@ -12,21 +12,21 @@ struct LandmarkList: View {
         NavigationView {
             List {
                 NavigationLink(
-                    destination: ContentView(),
+                    destination: LandmarkDetail(landmark: Landmark(id: 1001, name: "Turtle Rock", category: "Rivers", city: "Twentynine Palms", state: "California", isFeatured: true, isFavorite: true,coordinates: Coordinate(longitude: -116.166868, latitude: 34.011286), park: "Joshua Tree National Park", description: "", imageName: "turtlerock")),
                     label: {
-                        LandmarkRow()
+                        LandmarkRow(landmark: Landmark(id: 1001, name: "Turtle Rock", category: "Rivers", city: "Twentynine Palms", state: "California", isFeatured: true, isFavorite: true,coordinates: Coordinate(longitude: -116.166868, latitude: 34.011286), park: "Joshua Tree National Park", description: "", imageName: "turtlerock"))
                     })
                 
                 NavigationLink(
-                    destination: ContentView(),
+                    destination: LandmarkDetail(landmark: Landmark(id: 1001, name: "Turtle Rock", category: "Rivers", city: "Twentynine Palms", state: "California", isFeatured: true, isFavorite: true,coordinates: Coordinate(longitude: -116.166868, latitude: 34.011286), park: "Joshua Tree National Park", description: "", imageName: "turtlerock")),
                     label: {
-                        LandmarkRow()
+                        LandmarkRow(landmark: Landmark(id: 1001, name: "Turtle Rock", category: "Rivers", city: "Twentynine Palms", state: "California", isFeatured: true, isFavorite: true,coordinates: Coordinate(longitude: -116.166868, latitude: 34.011286), park: "Joshua Tree National Park", description: "", imageName: "turtlerock"))
                     })
                 
                 NavigationLink(
-                    destination: ContentView(),
+                    destination: LandmarkDetail(landmark: Landmark(id: 1001, name: "Turtle Rock", category: "Rivers", city: "Twentynine Palms", state: "California", isFeatured: true, isFavorite: true,coordinates: Coordinate(longitude: -116.166868, latitude: 34.011286), park: "Joshua Tree National Park", description: "", imageName: "turtlerock")),
                     label: {
-                        LandmarkRow()
+                        LandmarkRow(landmark: Landmark(id: 1001, name: "Turtle Rock", category: "Rivers", city: "Twentynine Palms", state: "California", isFeatured: true, isFavorite: true,coordinates: Coordinate(longitude: -116.166868, latitude: 34.011286), park: "Joshua Tree National Park", description: "", imageName: "turtlerock"))
                     })
                 
             }
